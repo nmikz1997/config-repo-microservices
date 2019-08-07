@@ -1,0 +1,8 @@
+eureka.client.serviceUrl.defaultZone= http://nmikz1997:123123@localhost:8761/eureka, http://nmikz1997:123123@eureka:8761/eureka
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+server.port= 8082
+
+spring.application.name= app1
+eureka.client.healthcheck.enabled= true
+eureka.instance.healthCheckUrlPath: https://localhost/health
